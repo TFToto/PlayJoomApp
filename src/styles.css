@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: "Verdana",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.loader {
+  border: 16px solid #86a9cc;
+  border-radius: 50%;
+  border-top: 16px solid #204a87;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+div.auto.cell div.footer h6 {
+	line-height: 0.4;
+}
+
+.form-control {
+	border-radius: 0;
+}
+.btn {
+    border-radius: 0;
+}
